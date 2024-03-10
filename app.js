@@ -49,9 +49,16 @@
 // names.push("Bilal");
 // console.log(names);
 
+// var names = [];
+// names [0] = "Rehan";
+// names [5] = "Baber";
+// names [10] = "Ali";
+// names.shift();
+// console.log(names);
+
 var names = [];
 names [0] = "Rehan";
 names [5] = "Baber";
 names [10] = "Ali";
-names.shift();
+names.unshift("Bilal", "Nadir", "Aamir");
 console.log(names);
