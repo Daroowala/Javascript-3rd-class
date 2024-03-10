@@ -29,8 +29,22 @@
 //  document.write("Not Welcome to "  + students[0])
 
 
+//var names = [];
+//names [0] = "Rehan";
+// names [5] = "Baber";
+// names [10] = "Ali";
+// alert(names[6])
+
+// var names = [];
+// names [0] = "Rehan";
+// names [5] = "Baber";
+// names [10] = "Ali";
+// names.pop();
+// console.log(names);
+
 var names = [];
 names [0] = "Rehan";
 names [5] = "Baber";
 names [10] = "Ali";
-alert(names[6])
+names.push("Bilal");
+console.log(names);
