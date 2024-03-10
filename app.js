@@ -42,9 +42,16 @@
 // names.pop();
 // console.log(names);
 
+//var names = [];
+// names [0] = "Rehan";
+// names [5] = "Baber";
+// names [10] = "Ali";
+// names.push("Bilal");
+// console.log(names);
+
 var names = [];
 names [0] = "Rehan";
 names [5] = "Baber";
 names [10] = "Ali";
-names.push("Bilal");
+names.shift();
 console.log(names);
