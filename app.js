@@ -23,6 +23,14 @@
   //}
 // }
 
- var students = ["Rehan", "Ali", "Asif", "Aamir"]
- alert("Welcome to class" + (" ") + students[1])
- document.write("Not Welcome to "  + students[0])
+
+//  var students = ["Rehan", "Ali", "Asif", "Aamir"]
+//  alert("Welcome to class" + (" ") + students[1])
+//  document.write("Not Welcome to "  + students[0])
+
+
+var names = [];
+names [0] = "Rehan";
+names [5] = "Baber";
+names [10] = "Ali";
+alert(names[6])
